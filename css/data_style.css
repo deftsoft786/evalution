@@ -1,0 +1,31 @@
+body {
+    background: #77a245  none repeat scroll 0 0;
+}
+#example {
+    background:#77a245  none repeat scroll 0 0;
+}
+#example tr {
+    background:#77a245  none repeat scroll 0 0;
+}
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background-color:#77a245 ;
+    color: yellow;
+}
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+  background-color: #77a245 ;
+  color: yellow;
+}
+#example tr{
+    color: #fff;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 2px solid #fff;
+    color: #000;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+  color: yellow;
+  text-align: center;
+}
+table.dataTable.no-footer {
+    border-bottom: 2px solid #fff !important;
+}
